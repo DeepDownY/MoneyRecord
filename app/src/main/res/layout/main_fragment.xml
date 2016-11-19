@@ -5,11 +5,10 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
 
-    android:paddingLeft="15dp"
-    android:paddingRight="15dp"
 
 
-    tools:context=".Activity.MainActivity">
+
+    tools:context="com.example.y1247.moneyaccount.Activity.MainActivity">
 
 
     <android.support.v7.widget.RecyclerView
@@ -17,7 +16,9 @@
         android:id="@+id/rv_accountInfo"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:overScrollMode="never">
+        android:overScrollMode="never"
+
+        >
 
     </android.support.v7.widget.RecyclerView>
 

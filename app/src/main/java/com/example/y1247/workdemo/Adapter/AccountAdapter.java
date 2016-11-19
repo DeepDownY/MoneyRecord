@@ -9,8 +9,6 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.y1247.workdemo.Activity.MainActivity;
-import com.example.y1247.workdemo.Application.MyApplication;
 import com.example.y1247.workdemo.R;
 
 

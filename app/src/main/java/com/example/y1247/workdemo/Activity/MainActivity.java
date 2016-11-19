@@ -1,6 +1,5 @@
 package com.example.y1247.workdemo.Activity;
 
-import android.graphics.Color;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -103,6 +102,7 @@ public class MainActivity extends AppCompatActivity
 
         mTabLineIv = (ImageView) this.findViewById(R.id.id_tab_line_iv);
         toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar.setElevation(0f);
         setSupportActionBar(toolbar);
 
         fab = (FloatingActionButton) findViewById(R.id.fab);

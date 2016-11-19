@@ -73,6 +73,7 @@ public class StatisticsFragment extends Fragment {
         pieChart.setHoleRadius(30f);  //半径
         pieChart.setTransparentCircleRadius(64f); // 半透明圈
         pieChart.setDescription("收支比例");
+        pieChart.setDescriptionTextSize(12f);
         pieChart.setDrawCenterText(false);  //饼状图中间可以添加文字
         pieChart.setDrawHoleEnabled(true);
         pieChart.setRotationAngle(90); // 初始旋转角度
@@ -258,7 +259,6 @@ public class StatisticsFragment extends Fragment {
         set1.setCircleColor(Color.rgb(213,241,10));
         set1.setHighLightColor(Color.rgb(244, 117, 117));
         set1.setColor(Color.rgb(104, 241, 175));
-        Log.i("123123123123", "initIncomeLineData: ");
         return set1;
 
     }

@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.y1247.workdemo.Activity.MainActivity"
+    tools:context="com.example.y1247.moneyaccount.Activity.MainActivity"
     tools:showIn="@layout/app_bar_main">
 
     <!--<include layout="@layout/activity_main_top_tab" />-->
